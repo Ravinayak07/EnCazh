@@ -47,6 +47,13 @@
     <link rel="stylesheet" type="text/css" href="assets/themes/betting/css/style.css">
 
 
+    <link rel="manifest" href="manifest.json">
+    <script>
+        //if browser support service worker
+        if('serviceWorker' in navigator) {
+          navigator.serviceWorker.register('sw.js');
+        };
+      </script>
 
 </head>
 
