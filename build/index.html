@@ -48,12 +48,7 @@
 
 
     <link rel="manifest" href="manifest.json">
-    <script>
-        //if browser support service worker
-        if('serviceWorker' in navigator) {
-          navigator.serviceWorker.register('sw.js');
-        };
-      </script>
+
 
 </head>
 
@@ -2015,6 +2010,14 @@
         // Initialize Firebase
         const app = initializeApp(firebaseConfig);
         const analytics = getAnalytics(app);
+    </script>
+
+    <!-- Code For PWA -->
+    <script>
+        //if browser support service worker
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('sw.js');
+        };
     </script>
 
 </body>
