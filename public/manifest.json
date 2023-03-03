@@ -3,12 +3,12 @@
   "name": "EnCazh",
   "icons": [
     {
-      "src": "/images/appicon.png",
+      "src": "/assets/images/appicon.png",
       "type": "image/png",
-      "sizes": "192x192"
+      "sizes": "512x512"
     },
     {
-      "src": "/images/appicon.png",
+      "src": "/assets/images/appicon.png",
       "type": "image/png",
       "sizes": "512x512"
     }
